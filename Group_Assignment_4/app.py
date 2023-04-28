@@ -1,5 +1,4 @@
 import streamlit as st
-import pickle
 
 # Setting up page configurations
 st.set_page_config(
