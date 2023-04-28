@@ -10,7 +10,7 @@ st.set_page_config(
 # Loading the model
 @st.experimental_singleton
 def read_objects():
-    model = pickle.load(open('HR_model/model.pkl','rb'))
+    #model = pickle.load(open('HR_model/model.pkl','rb'))
 
     return model
 
