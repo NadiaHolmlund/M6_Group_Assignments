@@ -5,6 +5,7 @@ This repository contains group assignments for BDS M6. A seperate folder is crea
 - [Group Assignment 1 - Notebook](Group_Assignment_1/Group_Assignment_1.ipynb)
 - [Group Assignment 2 - Notebook](Group_Assignment_2/Group_Assignment_2-2.ipynb)
 - [Group Assignment 3 - Notebook](Group_Assignment_3/Group_Assignment_3.ipynb)
+- [Group Assignment 4 - Notebook](Group_Assignment_4/Group_Assignment_4.ipynb)
 
 ## Group Assignment 1
 This folder contains a SQLite database containing information about the 2.000 most cited documents on Scopus within the topic of Natural Language Processing.
@@ -18,3 +19,6 @@ The data is loaded with Polars and consists of 2 datasets with official Baseball
 
 ## Group Assignment 3
 This folder contains a machine learning model based on the baseball dataset used in group assignment 2. The model predicts the number of homeruns based on 4 inputs, namely weight, height, games played and at-bat. Using MLFlow, the hyperparameters, metrics and artifacts of 3 model experiments have been logged and saved along with structured and unstructured information related to the trained model.
+
+## Group Assignment 4
+This folder contains a three-layer ML app based on the baseball dataset used in group assignment 2. The model predicts the number of homeruns based on 4 inputs, namely weight, height, games played and at-bat. Using MLFlow, the hyperparameters, metrics and artifacts have been logged and saved along with structured and unstructured information related to the trained model. Furthermore, a user-friendly interface have been created to interact with the model using Flask. Lastly, the ML app has been dockerized and pushed to Docker Hub which can be found here: https://hub.docker.com/r/nadiaholmlund/baseball_docker_02/tags. Instructions on how to run the app from the Docker Hub repository can be found at the end of the notebook.
